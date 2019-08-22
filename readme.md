@@ -1,7 +1,7 @@
 # Frontend Template (scss-gulp boilerplate)
 
 ##Features
-1) Concatenate, minify, and lint JavaScript.
+1) Concatenate, minify JavaScript.
 2) Compile, minify, autoprefix Sass.
 3) Copy static files and folders into your dist directory.
 4) Watch for file changes, and automatically recompile build and reload webpages.
