@@ -45,3 +45,7 @@ node_modules/
 *.crt
 *.key
 .env
+
+
+#dist folder
+dist/
