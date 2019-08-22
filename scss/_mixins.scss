@@ -1,0 +1,27 @@
+// frequently used code pieces
+
+// -------------------------
+//         Mixins
+// ------------------------
+
+// overlay
+@mixin overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: $black;
+  opacity: $opacity-image-overlay;
+}
+
+// making a content horizontally and vertically centered
+@mixin centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}

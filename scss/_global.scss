@@ -1,0 +1,21 @@
+// Styles to be used througfhout the site are declared here
+
+.banner {
+  background-image: url("#{$img-path-url}/placeholder-image.jpg");
+  background-size: cover;
+  height: 45rem;
+  position: relative;
+  &:before {
+    @include overlay;
+  }
+
+  .intro {
+    @include centered;
+    text-align: center;
+    color: $white;
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}

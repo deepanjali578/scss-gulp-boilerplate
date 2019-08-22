@@ -1,0 +1,13 @@
+// include bootstrap
+@import "../node_modules/bootstrap-scss/bootstrap.scss";
+// include font awesome
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+
+@import "variables.scss";
+@import "typography.scss";
+@import "mixins.scss";
+@import "global.scss";
+
+// responsive styling
+@import "responsive.scss" 

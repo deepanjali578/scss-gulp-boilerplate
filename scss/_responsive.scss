@@ -1,0 +1,57 @@
+// Declare your all responsive styling here
+
+// ---------------------------------
+//         Media Queries
+// ---------------------------------
+
+/* =========== Based on max-width ============= */
+
+/*  standard max-width breakpoints  */
+
+// large devices(Desktops)
+@media (max-width: 1199px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+
+//medium devices(tablets)
+@media (max-width: 991px) {
+}
+
+//small devices
+@media (max-width: 767px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+//extra small devices (mobile devices)
+@media (max-width: 575px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+}
+
+/* ============= Based on min-width ============= */
+
+/*  standard min-width breakpoints  */
+
+//extra small devices (mobile devices)
+@media (min-width: 576px) {
+}
+
+//small devices(tablets)
+@media (min-width: 768px) {
+}
+
+//medium sized devices
+@media (min-width: 992px) {
+}
+
+// large devices (Desktops)
+@media (min-width: 1200px) {
+}

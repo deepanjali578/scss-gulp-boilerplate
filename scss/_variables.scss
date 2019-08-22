@@ -1,0 +1,75 @@
+/* All variables and most of the configuration is defined on this page. */
+
+/* ======= Colors ====== */
+/* Gray and brand colors for use across theme.*/
+
+$black: #000;
+$white: #fff;
+$primary-color: #2e5ee0;
+$gray-base: #4c4c4d;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+
+/* ===== Scaffolding===== */
+
+/* ===== Settings for some of the most global styles ======  */
+
+/*  Background color for `<body>`  */
+$body-bg: $white;
+
+/*  Global text color on `<body>` */
+$text-color: $gray-base;
+
+/*  Global textual link color  */
+$link-color: $primary-color;
+
+/*  Link hover color set via `darken()` function */
+$link-hover-color: darken($link-color, 15%);
+
+/*  Link hover decoration */
+$link-hover-decoration: underline !default;
+
+/* ============== Paths ============= */
+
+// Fonts and image paths
+$font-path-url: "../fonts";
+$img-path-url: "../images";
+
+/* ============== Font, line-height, and color for body text, headings, and more =============*/
+
+$font-family-primary: "Montserrat", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.5; /* 24/16 */
+$font-weight-base: 400;
+
+// headings font
+$font-size-h1: 4.2rem;
+$font-size-h2: 3rem;
+$font-size-h3: 2.4rem;
+$font-size-h4: 2rem;
+$font-size-h5: 1.6rem;
+$font-size-h6: 1.2rem;
+
+/* By default, this inherits from the `<body>`.*/
+$headings-font-family: "Cocogoose Classic Trial", sans-serif !default;
+$headings-font-weight: 500 !default;
+$headings-line-height: 1.1 !default;
+$headings-color: inherit !default;
+
+/*  ====== Buttons =======  */
+
+/* For each of Theme buttons, define text, background and border color.*/
+$button-font-size: 1rem;
+$button-base-vertical: 0.35rem;
+$button-base-horizontal: 0.75rem;
+$btn-theme-border: darken($primary-color, 5%);
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base: 0 !default;
+
+/*==== Overlays ======*/
+
+/*  Color overlays over images on banner or image grid galleries*/
+$opacity-image-overlay: 0.6;
